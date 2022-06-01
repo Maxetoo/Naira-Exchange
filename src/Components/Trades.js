@@ -10,7 +10,7 @@ import Walmart from '../Assests/walmart-logo-black-transparent.png'
 const Trades = () => {
   return (
     <Wrapper>
-      <div className='waves'>
+      {/* <div className='waves'>
         <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'>
           <path
             fill='#ffff'
@@ -18,7 +18,7 @@ const Trades = () => {
             d='M0,224L60,218.7C120,213,240,203,360,181.3C480,160,600,128,720,128C840,128,960,160,1080,197.3C1200,235,1320,277,1380,298.7L1440,320L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z'
           ></path>
         </svg>
-      </div>
+      </div> */}
       <div className='trades-section'>
         <h3>Trade With Us</h3>
         <div className='available-trades'>
@@ -41,10 +41,6 @@ const Trades = () => {
 }
 
 const Wrapper = styled.article`
-  .waves {
-    max-width: 100%;
-    background: var(--bg-dark);
-  }
   .trades-section {
     width: 100%;
     height: auto;
@@ -52,11 +48,11 @@ const Wrapper = styled.article`
     flex-direction: column;
     align-items: center;
     background: var(--white-color);
-    margin-top: -1rem;
+    padding-bottom: 3.5rem;
   }
 
   h3 {
-    margin-top: 1rem;
+    margin-top: 3rem;
     color: var(--modal-bg);
   }
   .available-trades {
@@ -85,9 +81,8 @@ const Wrapper = styled.article`
 
   @media only screen and (min-width: 768px) {
     h3 {
-      margin-top: -2rem;
       color: var(--modal-bg);
-      font-size: 1.3em;
+      font-size: 1.5em;
     }
     .row {
       margin-top: 4rem;

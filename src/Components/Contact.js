@@ -108,13 +108,18 @@ const Wrapper = styled.article`
   }
 
   a {
-    color: var(--bg-dark)
+    color: var(--bg-dark);
     
   }
 
   li {
     margin: 1rem;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--bg-dark);
   }
 
   .reserve-container {

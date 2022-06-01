@@ -3,7 +3,13 @@ import styled from 'styled-components'
 import { RiCustomerService2Line } from 'react-icons/ri'
 import { BsPlug, BsShield } from 'react-icons/bs'
 import { FiLock } from 'react-icons/fi'
-
+import { SiFastly } from 'react-icons/si'
+import { IoMdFlash } from 'react-icons/io'
+import { FaHandshake } from 'react-icons/fa'
+// SiFastly
+// IoMdFlash
+// VscWorkspaceTrusted
+// FaHandshake
 const Service = ({ serviceSection }) => {
   return (
     <Wrapper>
@@ -13,7 +19,7 @@ const Service = ({ serviceSection }) => {
           <div className='service-list'>
             <div className='icon-container'>
               <span className='icon'>
-                <BsShield />
+                <FaHandshake />
               </span>
             </div>
             <h4>Reliability</h4>
@@ -25,7 +31,7 @@ const Service = ({ serviceSection }) => {
           <div className='service-list'>
             <div className='icon-container'>
               <span className='icon'>
-                <BsPlug />
+                <IoMdFlash />
               </span>
             </div>
             <h4>Instant Payment</h4>

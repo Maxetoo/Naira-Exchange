@@ -134,6 +134,7 @@ const Wrapper = styled.article`
     background: var(--white-color);
     font-family: 'Space Mono', monospace;
     font-weight: 600;
+    margin-top: 1.5rem;
   }
 
   button:hover {

@@ -1,19 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
-import Giftcards from '../Assests/giftcards-trans.png'
-
 const About = ({ aboutSection }) => {
   return (
     <Wrapper>
-      <div className='waves'>
-        <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'>
-          <path
-            fill='#ffff'
-            fill-opacity='1'
-            d='M0,160L1440,224L1440,0L0,0Z'
-          ></path>
-        </svg>
-      </div>
       <div className='about-section' ref={aboutSection}>
         <h3>About</h3>
         <p>
@@ -21,13 +10,14 @@ const About = ({ aboutSection }) => {
           trade your digital currencies and all types of giftcards at sweet
           rates.
         </p>
+
         <p>
           We buy <span>BTC/USDT</span>. Pickups for{' '}
           <span>
             CashApp, Zelle, Apple Pay, PayPal, Skrill, Neteller, Venmo, Payeer,
             Google Pay
           </span>{' '}
-          also available
+          and more.
         </p>
       </div>
     </Wrapper>
@@ -56,11 +46,6 @@ const Wrapper = styled.article`
     opacity: 0.8;
   }
 
-  .waves {
-    width: 100%;
-    background: var(--bg-dark);
-  }
-
   span {
     opacity: 1;
     font-size: 1em;
@@ -69,8 +54,12 @@ const Wrapper = styled.article`
 
   @media only screen and (min-width: 992px) {
     .about-section {
-      margin-top: -3rem;
-      width: 80%;
+      padding-top: 4rem;
+      padding-bottom: 7rem;
+    }
+
+    p {
+      width: 60%;
     }
   }
 `
