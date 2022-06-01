@@ -1,29 +1,24 @@
-import React, { useEffect, useState, useRef } from 'react'
+import React, { useRef } from 'react'
 import styled from 'styled-components'
-import HomeEth from '../Assests/Ethereum Image.jpg'
 import Btc from '../Assests/Bitcoin.jpg'
 import { useGlobalContext } from '../context'
 const HomeSection = ({ homeSection }) => {
   const { moreInfo, scrollToSection } = useGlobalContext()
-  const header = useRef(null)
-  const wordings = useRef(null)
-  const btn = useRef(null)
 
   return (
     <Wrapper>
       <div className='home-main-section' ref={homeSection}>
         <div className='details-container'>
-          <h3 className='home-h3' ref={header}>
+          <h3 className='home-h3'>
             Trade your Bitcoin and Giftcards with <span>Naira Exchange</span>
           </h3>
-          <p className='home-p' ref={wordings}>
+          <p className='home-p'>
             Experince a faster, easier and more reliable way to exchange
             bitcoins and gifcards for cash at sweet and amazing rates in split
             seconds
           </p>
           <div className='button-container'>
             <button
-              ref={btn}
               type='button'
               className='home-btn'
               onClick={() => scrollToSection(moreInfo)}
@@ -232,7 +227,7 @@ const Wrapper = styled.article`
       height: 300px;
       width: 100%;
       object-fit: cover;
-      background: #ffff;
+      background: #000000;
     }
 
     .button-container {

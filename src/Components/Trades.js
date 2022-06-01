@@ -66,7 +66,7 @@ const Wrapper = styled.article`
   }
 
   .row {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -74,9 +74,10 @@ const Wrapper = styled.article`
     margin-top: 2.3rem;
   }
   img {
-    width: 100%;
+    width: auto;
     height: 30px;
-    object-fit: contain;
+    background: var(--white-color);
+    object-fit: cover;
   }
 
   @media only screen and (min-width: 768px) {
