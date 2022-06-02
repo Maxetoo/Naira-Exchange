@@ -25,7 +25,7 @@ const Service = ({ serviceSection }) => {
             <h4>Reliability</h4>
             <p>
               We believe in customer satisfaction, so we offer you the best
-              experience and best exchange rates
+              experience and best exchange rates.
             </p>
           </div>
           <div className='service-list'>
@@ -37,7 +37,7 @@ const Service = ({ serviceSection }) => {
             <h4>Instant Payment</h4>
             <p>
               You're are guaranteed to get your payment sent to you in no time
-              once your transaction has been validated
+              once your transaction has been validated.
             </p>
           </div>
           <div className='service-list'>
@@ -49,7 +49,7 @@ const Service = ({ serviceSection }) => {
             <h4>Security</h4>
             <p>
               Trade with confidence, as you are guaranteed a zero or less chance
-              of transaction failure
+              of transaction failure.
             </p>
           </div>
           <div className='service-list'>

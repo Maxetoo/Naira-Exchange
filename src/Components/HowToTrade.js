@@ -2,9 +2,6 @@ import React from 'react'
 import styled from 'styled-components'
 import { RiContactsLine, RiExchangeFill } from 'react-icons/ri'
 import { MdOutlinePayment } from 'react-icons/md'
-// RiContactsLine
-// RiExchangeFill
-// MdOutlinePayment
 
 const HowToTrade = ({ tradingSection }) => {
   return (
@@ -18,9 +15,9 @@ const HowToTrade = ({ tradingSection }) => {
             </div>
             <h4>Contact Us</h4>
             <p>
-              Contact us on whatsapp by clicking on the "whatsapp" button. Tell
-              us what you want to trade and we will reply almost instantly with
-              amazing rates
+              Contact us on whatsapp by clicking on the "whatsapp" icon. Tell us
+              what you want to trade and we will reply almost instantly with
+              amazing rates.
             </p>
           </div>
           <div className='trade-list'>
@@ -29,9 +26,9 @@ const HowToTrade = ({ tradingSection }) => {
             </div>
             <h4>Ask Rates & Upload Card</h4>
             <p>
-              Tell us what you are for. If giftcards, once the rates has been
-              acknowledged you will send a clear picture of the valid
-              giftcard(s){' '}
+              Tell us what you want to trade. If giftcards, once the rates has
+              been acknowledged you will send a clear picture of the valid
+              giftcard(s).{' '}
             </p>
           </div>
           <div className='trade-list'>

@@ -24,7 +24,7 @@ const HeaderSmall = () => {
   )
 }
 
-const Wrapper = styled.article`
+const Wrapper = styled.header`
   @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;400&family=Oxanium:wght@200&family=Rajdhani:wght@300&family=Roboto+Flex:opsz,wght@8..144,100&family=Satisfy&family=Space+Mono&display=swap');
   .header-small-section {
     width: 100%;
